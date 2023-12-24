@@ -1,0 +1,251 @@
+body {
+    background-color: rgb(253, 253, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0;
+    flex-direction: column;
+
+}
+#wrapper {
+    max-width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    background: #f7f6f5;
+    padding: 2px;
+    /* align-items: center; */
+    
+}
+p {
+    margin-left: 3px;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    text-decoration: solid;
+    color: rgb(135, 40, 152);
+    
+}
+
+nav {
+    background: #ded055;
+    margin-top: 5%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    border: 3px;   
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+ a {
+    color: #350303;
+    display: inline;
+    padding: 10px;
+    padding-top: 0px;
+    text-decoration: none;
+    &:hover{
+        color: red;
+        text-decoration: double;
+        transition: 2s ;
+    }
+}
+.intro {
+    display: flex;
+}
+img{
+    /* display: flex; */
+    margin: 10px 20px 10px 10px;
+    width: 500px;
+    height: auto;
+    border: 5px;
+    border-color: aqua;
+    float: left;
+}
+.properIntro {
+   /* background-color:#DAD5C1; */
+   margin-right: 10px;
+
+}
+
+.italicized::before,
+.italicized::after {
+    content: '"';
+    font-style: italic;
+}
+.italicized {
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px 10px;
+    
+}
+/* .SchoolIdentification {
+    margin-left: 10px;
+    /* margin-top: 200px; */
+ */
+
+h4 {
+    padding-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    
+}
+.description {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.passport {
+    margin-left: 8%;
+    /* width: 0px; */
+    /* height: 00px; */
+
+}
+
+.first_passport {
+    width: 200px;
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.second_passport {
+    width: 200px;
+    border: 10px;
+    border-color: chocolate;
+    margin-right: 1px;
+    border-radius: 2%;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.third_passport {
+    width: 200px;
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.fourth_passport {
+    width: 200px;
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+h3 {
+    margin: 300px 10px 10px 10px;
+}
+
+.goal {
+    background-color: #DAD5C1;
+    padding: 10px;
+    text-align: justify;
+}
+p > strong {
+    font-style: italic;
+}
+Article  {
+    background-color: #DAD5C1;
+    width: 58%;
+    float: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    p {
+        margin-right: 10px;
+    }
+}
+.link-text {
+    margin-top: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    
+     
+
+}
+footer {
+    background-color: #333;
+
+   }
+   .foot {
+    background-image: url("Assets/Images/globe.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-weight: bolder;
+
+   }
+
+.copyright {
+    display: block;
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+    
+}
+ol li {
+    list-style: none;
+    display: inline-flex;
+    
+}
+.socials img {
+    display: inline;
+    margin: 20px 0px 0px 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+   
+}
+
+.icon {
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.icon:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.outro {
+color: white;
+font-size:xx-large;
+display: inline;
+
+}
+
+/* .animate {
+    animation-name: slidein;
+    animation-duration: 3s;
+        }
+        @keyframes slidein{
+            from{
+                margin-top: 100%;
+                width: 300%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+     */
